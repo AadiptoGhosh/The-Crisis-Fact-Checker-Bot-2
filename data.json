@@ -1,0 +1,40 @@
+{
+    "trusted_reports": [
+        {
+            "id": "TR-001",
+            "location": "Sector 4",
+            "event": "Flash Flood",
+            "status": "confirmed",
+            "timestamp": "2024-10-27T14:30:00Z",
+            "confidence": 0.98,
+            "details": "Water levels rising above 3ft. Official sensors triggered."
+        },
+        {
+            "id": "TR-002",
+            "location": "Bridge 9",
+            "event": "Collapse",
+            "status": "false",
+            "timestamp": "2024-10-27T15:00:00Z",
+            "confidence": 0.99,
+            "details": "Structural integrity confirmed via CCTV and sensors. Bridge is operational."
+        },
+        {
+            "id": "TR-003",
+            "location": "City Hospital",
+            "event": "Power Outage",
+            "status": "confirmed",
+            "timestamp": "2024-10-27T16:15:00Z",
+            "confidence": 0.95,
+            "details": "Main grid failure. Backup generators active."
+        },
+        {
+            "id": "TR-004",
+            "location": "Sector 7",
+            "event": "Donation Drive",
+            "status": "scam",
+            "timestamp": "2024-10-27T12:00:00Z",
+            "confidence": 0.90,
+            "details": "Unregistered entity soliciting cash. No official drive authorized in Sector 7."
+        }
+    ]
+}
