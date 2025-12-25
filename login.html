@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - CrisisVerify</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: var(--color-primary-dark);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="card" style="width: 100%; max-width: 400px; padding: var(--space-xl);">
+        <div style="text-align: center; margin-bottom: var(--space-xl);">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 19H22L12 2Z" fill="#ffcc00" stroke="var(--color-primary)" stroke-width="2"
+                    stroke-linejoin="round" />
+                <path d="M12 16V18" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" />
+                <path d="M12 8V12" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <h1 style="font-size: 1.5rem; margin-top: var(--space-sm); color: var(--color-primary);">CrisisVerify</h1>
+            <p class="text-muted">Official Responder Access</p>
+        </div>
+        <form>
+            <div class="form-group">
+                <label class="form-label">Agency ID / Email</label>
+                <input type="email" class="form-control" placeholder="agent@agency.gov" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control" placeholder="••••••••" required>
+            </div>
+            <button type="button" onclick="window.location.href='dashboard.html'" class="btn btn-primary"
+                style="width: 100%;">
+                Sign In
+            </button>
+            <div style="margin: var(--space-md) 0; display: flex; align-items: center; justify-content: space-between;">
+                <hr style="flex-grow: 1; border: 0; border-top: 1px solid var(--color-border);">
+                <span class="text-muted" style="padding: 0 0.5rem; font-size: 0.8rem;">OR</span>
+                <hr style="flex-grow: 1; border: 0; border-top: 1px solid var(--color-border);">
+            </div>
+            <button type="button" class="btn btn-outline" style="width: 100%; font-size: 0.9rem;">
+                Insert PIV / CAC Card
+            </button>
+        </form>
+        <div style="text-align: center; margin-top: var(--space-xl); font-size: 0.85rem;">
+            <a href="#">Forgot Credentials?</a>
+            <br><br>
+            <span class="text-muted">Authorized Personnel Only. <br>Unauthorized access is a federal offense.</span>
+        </div>
+    </div>
+</body>
+</html>
